@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Induction Function Hall</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color:#a47dc6c0;
+            color: #2e5c31;
+        }
+
+        header {
+            background: linear-gradient(to right,  rgb(215, 200, 200), rgb(210, 190, 75));
+            color:rgb(182, 69, 91);
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+        }
+
+        .hero {
+            background-image: url('https://example.com/function-hall.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(24, 126, 70);
+            text-shadow: 2px 2px 4px rgba(133, 185, 50, 0.7);
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .section h3 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .cards {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background:rgba(220, 108, 127, 0.701);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(206, 80, 80, 0.715);
+            width: 300px;
+            padding: 1rem;
+            text-align: left;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .card h4 {
+            margin: 0.5rem 0;
+        }
+
+        footer {
+            background: #4a3a3a;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            margin: 1rem 0;
+            background: #3498db;
+            color: WHITE;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .button:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> HEAVENLY AURA FUNCTION HALL</h1>
+        <p>The magic of every celebration starts with a Heavenly Aura of Love</p>
+    </header>
+
+    <div class="hero">
+        <h2>Celebrate Your Special Moments with Us</h2>
+    </div>
+
+    <section class="section">
+        <img src="https://www.weddingsutra.com/images/royal-halls-01.jpg"alt="heavenly aura function hall">
+        <h2>OUR AMENITIES</h2>
+        <p>
+           <li>Free wifi</li>
+           <li>cuisine</li>
+           <li>doctor-on-call</li>
+           <li>Well-equipped banquet hall for business meetings</li>
+           <li>Room service</li>
+           <li>stylish-comfortable Bedrooms:</li>
+           AC ONLY
+           for one night cost
+                             
+                               <li>guest bedrooms with one luxury bed-charges /9999</li>
+                               <li>3 beds/-7999</li>
+                               <li>2 beds/-4999</li>
+                               <li>single bed/-2999</li>
+                             
+            WITH ALL AMENITIES
+         
+        </p>
+    </section>
+
+    <section class="section">
+        <h3>Our Services</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="https://i.pinimg.com/originals/fd/45/29/fd452999f9b6a7efddf0acdb504d0281.jpg" alt="Dining Setup">
+                <h4>Exquisite Dining</h4>
+                <p>Enjoy a range of culinary delights curated by our expert chefs.</p>
+            </div>
+            <div class="card">
+                <img src="https://media.weddingz.in/images/bbda52972b1de50671f1b9de639610de/Anais-Events-6.jpg" alt="Elegant Decor">
+                <h4>Elegant Decor</h4>
+                <p>Customizable decor to match the theme of your event.</p>
+            </div>
+            <div class="card">
+               <img src="https://c1.wallpaperflare.com/preview/238/36/958/multi-storey-car-park-parking-park-level-park.jpg" alt="parking photo">
+               <h4>Parking</h4>
+               <p>get a best place to park your car</p>
+            </div>
+            <div class="card">
+               <img src="https://i.pinimg.com/originals/6c/9a/e0/6c9ae02f6f53aa68b5acaa75e290bc5c.png" alt="bedroom photos">
+               <h4>Bed Room</h4>
+               <p>Have a Happy stay</p>
+            </div>
+    </section>
+
+    <section class="section">
+        <h3>Book Your Event Today</h3>
+        <a href="contact.html" class="button">Contact Us</a>
+    </section>
+
+    <footer>
+        <p>&copy;  HEAVENLY AURA FUNCTION HALL. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
